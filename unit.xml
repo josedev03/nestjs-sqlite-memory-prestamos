@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.1380" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-11-22T01:35:50" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Prestamos biblioteca test" timestamp="2021-11-22T01:35:50" tests="6" file="/projects/challenge/test/prestamo.spec.ts" time="0.1380" failures="1">
+    <testcase name="Prestamos biblioteca test prestamo Libro Usuario Afiliado Deberia Almacenar Correctamente Y Calcular Fecha De Devolucion" time="0.0850" classname="prestamo Libro Usuario Afiliado Deberia Almacenar Correctamente Y Calcular Fecha De Devolucion">
+      <failure message="expected &apos;4/12/2021&apos; to equal &apos;6/12/2021&apos;" type="AssertionError"><![CDATA[AssertionError: expected '4/12/2021' to equal '6/12/2021'
+    at Context.<anonymous> (test/prestamo.spec.ts:45:61)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)]]></failure>
+    </testcase>
+    <testcase name="Prestamos biblioteca test prestamo Libro Usuario Empleado Deberia Almacenar Correctamente Y Calcular Fecha De Devolucion" time="0.0130" classname="prestamo Libro Usuario Empleado Deberia Almacenar Correctamente Y Calcular Fecha De Devolucion">
+    </testcase>
+    <testcase name="Prestamos biblioteca test prestamo Libro Usuario Invitado Deberia Almacenar Correctamente Y Calcular Fecha De Devolucion" time="0.0120" classname="prestamo Libro Usuario Invitado Deberia Almacenar Correctamente Y Calcular Fecha De Devolucion">
+    </testcase>
+    <testcase name="Prestamos biblioteca test usuario Invitado Tratando De Prestar Un Segundo Libro Deberia Retornar Excepcion" time="0.0120" classname="usuario Invitado Tratando De Prestar Un Segundo Libro Deberia Retornar Excepcion">
+    </testcase>
+    <testcase name="Prestamos biblioteca test usuario Diferente A Invitado Tratando De Prestar Un Segundo Libro Deberia Prestarlo Correctamente" time="0.0130" classname="usuario Diferente A Invitado Tratando De Prestar Un Segundo Libro Deberia Prestarlo Correctamente">
+    </testcase>
+    <testcase name="Prestamos biblioteca test prestamo Con Tipo De Usuario No Permitido Deberia Retornar Excepcion" time="0.0030" classname="prestamo Con Tipo De Usuario No Permitido Deberia Retornar Excepcion">
+    </testcase>
+  </testsuite>
+</testsuites>
